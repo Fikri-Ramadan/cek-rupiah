@@ -7,13 +7,16 @@ export default function Header() {
   return (
     <div>
       <div className="h-14 md:h-16 px-3 md:px-5 flex justify-between items-center">
-        <Image
-          src={'/assets/images/logo.svg'}
-          alt="logo"
-          width={140}
-          height={140}
-          className="w-28 h-28 md:w-35 md:h-35"
-        />
+        <div className="flex items-center justify-start gap-2">
+          <Image
+            src={'/assets/images/logo.svg'}
+            alt="logo"
+            width={20}
+            height={20}
+            className="w-6 h-6 md:w-9 md:h-9"
+          />
+          <div className="text-sm md:text-base font-semibold tracking-widest">CEK_RUPIAH</div>
+        </div>
         <div className="text-[9px] md:text-sm text-neutral-100/70 tracking-widest flex items-center gap-1.5 md:gap-3">
           <div>{totalCurrencies} CURRENCIES</div>
           <div>·</div>

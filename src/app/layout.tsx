@@ -16,20 +16,20 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "Currency Tracker | Real-time Exchange Rates",
+    default: "Cek Rupiah | Real-time Exchange Rates",
     template: "%s | Currency Tracker",
   },
   description: "Monitor real-time currency exchange rates, historical data charts, and convert currencies with precision.",
   keywords: ["currency converter", "exchange rates", "forex charts", "historical rates", "finance tools"],
-  authors: [{ name: "Nama Kamu/Brand" }],
-  creator: "Nama Kamu/Brand",
+  authors: [{ name: "Cek-Rupiah" }],
+  creator: "Cek-Rupiah",
   
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://fx-checkers.vercel.app/",
-    siteName: "Currency Tracker",
-    title: "Currency Tracker | Real-time Exchange Rates",
+    url: "https://cekrupiah.vercel.app/",
+    siteName: "Cek Rupiah",
+    title: "Cek Rupiah | Real-time Exchange Rates",
     description: "Convert currencies and analyze historical trends with our interactive charts.",
     images: [
       {
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     title: "Currency Tracker | Exchange Rates",
     description: "Real-time currency conversion and historical data visualization.",
     images: ["/og-image.jpg"],
-    creator: "@yourhandle",
+    creator: "@cekrupiah",
   },
 
   icons: {

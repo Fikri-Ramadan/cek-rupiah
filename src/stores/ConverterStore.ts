@@ -11,9 +11,9 @@ const converterStore = create<CurrencyConverter>()(
         name: 'US Dollar',
       },
       receive: {
-        flag: "eu",
-        code: "EUR",
-        name: "Euro",
+        flag: 'id',
+        code: 'IDR',
+        name: 'Indonesian Rupiah',
       },
       sendAmount: null,
       receiveAmount: null,
