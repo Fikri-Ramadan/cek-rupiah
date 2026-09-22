@@ -3,8 +3,9 @@
 > Aplikasi web pemantau nilai tukar mata uang real-time, konversi kurs, dan analisis pasar finansial yang responsif dan performan.
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-cekrupiah.vercel.app-brightgreen?style=for-the-badge&logo=vercel)](https://cekrupiah.vercel.app/)
-[![Next.js](https://img.shields.io/badge/Next.js-14+-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-14+-202022?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Zustand](https://shields.io)](https://pmnd.rs)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.0+-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
 ---
