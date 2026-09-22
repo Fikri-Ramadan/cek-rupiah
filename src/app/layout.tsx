@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     description: "Convert currencies and analyze historical trends with our interactive charts.",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Currency Tracker Dashboard",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Currency Tracker | Exchange Rates",
     description: "Real-time currency conversion and historical data visualization.",
-    images: ["/og-image.jpg"],
+    images: ["/og-image.png"],
     creator: "@cekrupiah",
   },
 
