@@ -5,24 +5,28 @@
 [![Live Demo](https://img.shields.io/badge/Live_Demo-cekrupiah.vercel.app-brightgreen?style=for-the-badge&logo=vercel)](https://cekrupiah.vercel.app/)
 [![Next.js](https://img.shields.io/badge/Next.js-14+-202022?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Zustand](https://shields.io)](https://pmnd.rs)
+[![Zustand](https://img.shields.io/badge/Zustand-5.0+-4C202D?style=for-the-badge&logo=react&logoColor=white)](https://zustand.docs.pmnd.rs/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.0+-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
 ---
 
 ## 📸 Preview
 
-![CekRupiah Dashboard Preview](https://raw.githubusercontent.com/fikri-ramadan/foreign-exchange-currency-converter-app/main/public/og-image.jpg)
+![CekRupiah Dashboard Preview](https://raw.githubusercontent.com/fikri-ramadan/cek-rupiah/main/public/og-image.jpg)
 
 ---
 
 ## 🌟 Fitur Utama
 
-- 📈 **Live Market Ticker Header**: Running text pantauan mata uang utama (*Major Pairs*) secara *real-time* lengkap dengan indikator perubahan persentase harian.
-- 🪟 **Interactive Currency Converter**: Kalkulator konversi kurs serbaguna dengan pencarian bendera & mata uang interaktif.
-- ⭐️ **Pinned Favorites**: Simpan pasangan mata uang favorit kamu untuk memantau pergerakan harganya dalam satu tampilan ringkas.
-- 📊 **Historical & Log Tracking**: Pantau riwayat perubahan kurs harian dan catat riwayat konversi yang telah dilakukan.
-- 🌓 **Dark Mode UI**: Antarmuka modern dan *sleek* terinspirasi dari terminal finansial profesional.
+- 🪟 **Interactive Currency Converter**: Konversi mata uang secara real-time saat mengetik, dilengkapi fitur swap, kalkulasi kurs live, serta opsi favorit dan simpan riwayat konversi.
+- 🔍 **Searchable Currency Picker**: Pencarian mata uang interaktif berdasarkan kode atau nama, dikelompokkan ke dalam kategori Popular & Other Currencies lengkap dengan bendera negara.
+- 📈 **Live Market Ticker**: Ticker running text untuk memantau pergerakan pasangan mata uang utama secara real-time beserta persentase perubahan 24 jam.
+- 📊 **Interactive Rate History Chart**: Visualisasi grafik tren harga (Line & Area Chart) dengan rentang fleksibel (1D, 1W, 1M, 3M, 1Y, 5Y) dan indikator statistik lengkap (Open, Last, Change, % Change).
+- ⚖️ **Multi-Currency Comparison**: Bandingkan nominal konversi ke berbagai mata uang sekaligus dalam satu tampilan dan sematkan (pin) baris mata uang ke favorit.
+- ⭐️ **Pinned Favorites**: Pantau daftar pasangan mata uang favorit dengan live rate dan indikator perubahan harian, serta fitur klik untuk memuat kembali ke kalkulator utama.
+- 📜 **Conversion History Log**: Pencatatan riwayat transaksi konversi dengan waktu relatif (relative time), dilengkapi fitur manajemen log (hapus per entri atau bersihkan semua).
+- 💾 **Local Data Persistence**: Penyimpanan otomatis data favorit, riwayat konversi, dan status tab aktif di localStorage agar tidak hilang saat browser ditutup.
+- ♿️ **Responsive & Accessible UI**: Desain responsif di semua ukuran layar, mendukung hover/focus states interaktif.
 
 ---
 
@@ -46,7 +50,7 @@ Aplikasi ini menerapkan **Pivot Currency Strategy** menggunakan [Frankfurter API
 
 - **Framework**: [Next.js](https://nextjs.org/) (App Router)
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **State Management**: [Zustand](https://pmnd.rs) (Client-side state & global store)
+- **State Management**: [Zustand](https://zustand.docs.pmnd.rs/) (Client-side state & global store)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 - **UI Components**: [Shadcn UI](https://ui.shadcn.com/) / Lucide React
 - **Icons**: ISO Country Flags SVG
@@ -67,5 +71,7 @@ Untuk menjalankan proyek ini secara lokal di komputer anda, ikuti langkah-langka
 
 1. **Clone repository ini:**
    ```bash
-   git clone [https://github.com/](https://github.com/)[fikri-ramadan]/cekrupiah.git
-   cd cekrupiah
+   git clone https://github.com/Fikri-Ramadan/cek-rupiah.git
+   cd cek-rupiah
+   npm install
+   npm run dev
