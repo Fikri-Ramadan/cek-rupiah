@@ -12,7 +12,7 @@
 
 ## 📸 Preview
 
-![CekRupiah Dashboard Preview](https://raw.githubusercontent.com/fikri-ramadan/cek-rupiah/main/public/og-image.jpg)
+![CekRupiah Dashboard Preview](https://raw.githubusercontent.com/fikri-ramadan/cek-rupiah/main/public/og-image.png)
 
 ---
 
